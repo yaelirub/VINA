@@ -64,6 +64,8 @@
 -(void)setUser:(VINAUser *)user
 {
     _user = user;
+    
+    
     //TODO : 1. check if user and user has already set distance preferences
     //       2. update UI if needed
 }
