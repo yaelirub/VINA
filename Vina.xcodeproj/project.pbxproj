@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D8B4E271D3E0EA900EEB0DB /* UIFont+VINASettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B4E261D3E0EA900EEB0DB /* UIFont+VINASettings.m */; };
+		5D8B4E2A1D3E13B100EEB0DB /* VINAUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B4E291D3E13B100EEB0DB /* VINAUserManager.m */; };
+		5D911E131D3B0F4200F8DACB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D911E121D3B0F4200F8DACB /* main.m */; };
+		5D911E161D3B0F4200F8DACB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D911E151D3B0F4200F8DACB /* AppDelegate.m */; };
+		5D911E191D3B0F4200F8DACB /* VINAFilteringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D911E181D3B0F4200F8DACB /* VINAFilteringViewController.m */; };
+		5D911E1C1D3B0F4200F8DACB /* VINAMatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D911E1B1D3B0F4200F8DACB /* VINAMatchesViewController.m */; };
+		5D911E1F1D3B0F4200F8DACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D911E1D1D3B0F4200F8DACB /* Main.storyboard */; };
+		5D911E211D3B0F4200F8DACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D911E201D3B0F4200F8DACB /* Assets.xcassets */; };
+		5D911E241D3B0F4200F8DACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D911E221D3B0F4200F8DACB /* LaunchScreen.storyboard */; };
+		5D911E2F1D3B0F4200F8DACB /* VinaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D911E2E1D3B0F4200F8DACB /* VinaTests.m */; };
+		5D911E3A1D3B0F4200F8DACB /* VinaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D911E391D3B0F4200F8DACB /* VinaUITests.m */; };
+		5D9FCF981D3DFD7500EA9113 /* VINARangeSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FCF971D3DFD7500EA9113 /* VINARangeSelectionView.m */; };
+		5D9FCF9B1D3DFEB200EA9113 /* UIColor+VINASettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FCF9A1D3DFEB200EA9113 /* UIColor+VINASettings.m */; };
+		5D9FCF9D1D3E001300EA9113 /* PFDinTextCondPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D9FCF9C1D3E001300EA9113 /* PFDinTextCondPro-Light.ttf */; };
+		5DAAD6831D3DF3BD004F84C8 /* VINAUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAAD6821D3DF3BD004F84C8 /* VINAUser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D911E2B1D3B0F4200F8DACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D911E061D3B0F4200F8DACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D911E0D1D3B0F4200F8DACB;
+			remoteInfo = Vina;
+		};
+		5D911E361D3B0F4200F8DACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D911E061D3B0F4200F8DACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D911E0D1D3B0F4200F8DACB;
+			remoteInfo = Vina;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D8B4E251D3E0EA900EEB0DB /* UIFont+VINASettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+VINASettings.h"; sourceTree = "<group>"; };
+		5D8B4E261D3E0EA900EEB0DB /* UIFont+VINASettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+VINASettings.m"; sourceTree = "<group>"; };
+		5D8B4E281D3E13B100EEB0DB /* VINAUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VINAUserManager.h; sourceTree = "<group>"; };
+		5D8B4E291D3E13B100EEB0DB /* VINAUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VINAUserManager.m; sourceTree = "<group>"; };
+		5D911E0E1D3B0F4200F8DACB /* Vina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D911E121D3B0F4200F8DACB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D911E141D3B0F4200F8DACB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D911E151D3B0F4200F8DACB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D911E171D3B0F4200F8DACB /* VINAFilteringViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VINAFilteringViewController.h; sourceTree = "<group>"; };
+		5D911E181D3B0F4200F8DACB /* VINAFilteringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VINAFilteringViewController.m; sourceTree = "<group>"; };
+		5D911E1A1D3B0F4200F8DACB /* VINAMatchesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VINAMatchesViewController.h; sourceTree = "<group>"; };
+		5D911E1B1D3B0F4200F8DACB /* VINAMatchesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VINAMatchesViewController.m; sourceTree = "<group>"; };
+		5D911E1E1D3B0F4200F8DACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D911E201D3B0F4200F8DACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D911E231D3B0F4200F8DACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D911E251D3B0F4200F8DACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D911E2A1D3B0F4200F8DACB /* VinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D911E2E1D3B0F4200F8DACB /* VinaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VinaTests.m; sourceTree = "<group>"; };
+		5D911E301D3B0F4200F8DACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D911E351D3B0F4200F8DACB /* VinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D911E391D3B0F4200F8DACB /* VinaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VinaUITests.m; sourceTree = "<group>"; };
+		5D911E3B1D3B0F4200F8DACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D9FCF961D3DFD7500EA9113 /* VINARangeSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VINARangeSelectionView.h; sourceTree = "<group>"; };
+		5D9FCF971D3DFD7500EA9113 /* VINARangeSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VINARangeSelectionView.m; sourceTree = "<group>"; };
+		5D9FCF991D3DFEB200EA9113 /* UIColor+VINASettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VINASettings.h"; sourceTree = "<group>"; };
+		5D9FCF9A1D3DFEB200EA9113 /* UIColor+VINASettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VINASettings.m"; sourceTree = "<group>"; };
+		5D9FCF9C1D3E001300EA9113 /* PFDinTextCondPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PFDinTextCondPro-Light.ttf"; sourceTree = "<group>"; };
+		5DAAD6811D3DF3BD004F84C8 /* VINAUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VINAUser.h; sourceTree = "<group>"; };
+		5DAAD6821D3DF3BD004F84C8 /* VINAUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VINAUser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D911E0B1D3B0F4200F8DACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D911E271D3B0F4200F8DACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D911E321D3B0F4200F8DACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D911E051D3B0F4200F8DACB = {
+			isa = PBXGroup;
+			children = (
+				5D911E101D3B0F4200F8DACB /* Vina */,
+				5D911E2D1D3B0F4200F8DACB /* VinaTests */,
+				5D911E381D3B0F4200F8DACB /* VinaUITests */,
+				5D911E0F1D3B0F4200F8DACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D911E0F1D3B0F4200F8DACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D911E0E1D3B0F4200F8DACB /* Vina.app */,
+				5D911E2A1D3B0F4200F8DACB /* VinaTests.xctest */,
+				5D911E351D3B0F4200F8DACB /* VinaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D911E101D3B0F4200F8DACB /* Vina */ = {
+			isa = PBXGroup;
+			children = (
+				5D9FCFA41D3E00BB00EA9113 /* Storyboards */,
+				5D9FCFA01D3E007800EA9113 /* View Controllers */,
+				5D9FCFA11D3E008800EA9113 /* Views */,
+				5D9FCFA31D3E00AE00EA9113 /* Model */,
+				5D9FCFA21D3E009300EA9113 /* Utilities */,
+				5D9FCF9E1D3E006900EA9113 /* Assets */,
+				5D911E141D3B0F4200F8DACB /* AppDelegate.h */,
+				5D911E151D3B0F4200F8DACB /* AppDelegate.m */,
+				5D911E201D3B0F4200F8DACB /* Assets.xcassets */,
+				5D911E251D3B0F4200F8DACB /* Info.plist */,
+				5D911E111D3B0F4200F8DACB /* Supporting Files */,
+			);
+			path = Vina;
+			sourceTree = "<group>";
+		};
+		5D911E111D3B0F4200F8DACB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D911E121D3B0F4200F8DACB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D911E2D1D3B0F4200F8DACB /* VinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D911E2E1D3B0F4200F8DACB /* VinaTests.m */,
+				5D911E301D3B0F4200F8DACB /* Info.plist */,
+			);
+			path = VinaTests;
+			sourceTree = "<group>";
+		};
+		5D911E381D3B0F4200F8DACB /* VinaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D911E391D3B0F4200F8DACB /* VinaUITests.m */,
+				5D911E3B1D3B0F4200F8DACB /* Info.plist */,
+			);
+			path = VinaUITests;
+			sourceTree = "<group>";
+		};
+		5D9FCF9E1D3E006900EA9113 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5D9FCF9F1D3E006F00EA9113 /* Fonts */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		5D9FCF9F1D3E006F00EA9113 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5D9FCF9C1D3E001300EA9113 /* PFDinTextCondPro-Light.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		5D9FCFA01D3E007800EA9113 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D911E171D3B0F4200F8DACB /* VINAFilteringViewController.h */,
+				5D911E181D3B0F4200F8DACB /* VINAFilteringViewController.m */,
+				5D911E1A1D3B0F4200F8DACB /* VINAMatchesViewController.h */,
+				5D911E1B1D3B0F4200F8DACB /* VINAMatchesViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5D9FCFA11D3E008800EA9113 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D9FCF961D3DFD7500EA9113 /* VINARangeSelectionView.h */,
+				5D9FCF971D3DFD7500EA9113 /* VINARangeSelectionView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5D9FCFA21D3E009300EA9113 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5D9FCF991D3DFEB200EA9113 /* UIColor+VINASettings.h */,
+				5D9FCF9A1D3DFEB200EA9113 /* UIColor+VINASettings.m */,
+				5D8B4E251D3E0EA900EEB0DB /* UIFont+VINASettings.h */,
+				5D8B4E261D3E0EA900EEB0DB /* UIFont+VINASettings.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		5D9FCFA31D3E00AE00EA9113 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DAAD6811D3DF3BD004F84C8 /* VINAUser.h */,
+				5DAAD6821D3DF3BD004F84C8 /* VINAUser.m */,
+				5D8B4E281D3E13B100EEB0DB /* VINAUserManager.h */,
+				5D8B4E291D3E13B100EEB0DB /* VINAUserManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5D9FCFA41D3E00BB00EA9113 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5D911E1D1D3B0F4200F8DACB /* Main.storyboard */,
+				5D911E221D3B0F4200F8DACB /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D911E0D1D3B0F4200F8DACB /* Vina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D911E3E1D3B0F4200F8DACB /* Build configuration list for PBXNativeTarget "Vina" */;
+			buildPhases = (
+				5D911E0A1D3B0F4200F8DACB /* Sources */,
+				5D911E0B1D3B0F4200F8DACB /* Frameworks */,
+				5D911E0C1D3B0F4200F8DACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vina;
+			productName = Vina;
+			productReference = 5D911E0E1D3B0F4200F8DACB /* Vina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D911E291D3B0F4200F8DACB /* VinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D911E411D3B0F4200F8DACB /* Build configuration list for PBXNativeTarget "VinaTests" */;
+			buildPhases = (
+				5D911E261D3B0F4200F8DACB /* Sources */,
+				5D911E271D3B0F4200F8DACB /* Frameworks */,
+				5D911E281D3B0F4200F8DACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D911E2C1D3B0F4200F8DACB /* PBXTargetDependency */,
+			);
+			name = VinaTests;
+			productName = VinaTests;
+			productReference = 5D911E2A1D3B0F4200F8DACB /* VinaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D911E341D3B0F4200F8DACB /* VinaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D911E441D3B0F4200F8DACB /* Build configuration list for PBXNativeTarget "VinaUITests" */;
+			buildPhases = (
+				5D911E311D3B0F4200F8DACB /* Sources */,
+				5D911E321D3B0F4200F8DACB /* Frameworks */,
+				5D911E331D3B0F4200F8DACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D911E371D3B0F4200F8DACB /* PBXTargetDependency */,
+			);
+			name = VinaUITests;
+			productName = VinaUITests;
+			productReference = 5D911E351D3B0F4200F8DACB /* VinaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D911E061D3B0F4200F8DACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Yael Rubinstein";
+				TargetAttributes = {
+					5D911E0D1D3B0F4200F8DACB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5D911E291D3B0F4200F8DACB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5D911E0D1D3B0F4200F8DACB;
+					};
+					5D911E341D3B0F4200F8DACB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5D911E0D1D3B0F4200F8DACB;
+					};
+				};
+			};
+			buildConfigurationList = 5D911E091D3B0F4200F8DACB /* Build configuration list for PBXProject "Vina" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D911E051D3B0F4200F8DACB;
+			productRefGroup = 5D911E0F1D3B0F4200F8DACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D911E0D1D3B0F4200F8DACB /* Vina */,
+				5D911E291D3B0F4200F8DACB /* VinaTests */,
+				5D911E341D3B0F4200F8DACB /* VinaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D911E0C1D3B0F4200F8DACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9FCF9D1D3E001300EA9113 /* PFDinTextCondPro-Light.ttf in Resources */,
+				5D911E241D3B0F4200F8DACB /* LaunchScreen.storyboard in Resources */,
+				5D911E211D3B0F4200F8DACB /* Assets.xcassets in Resources */,
+				5D911E1F1D3B0F4200F8DACB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D911E281D3B0F4200F8DACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D911E331D3B0F4200F8DACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D911E0A1D3B0F4200F8DACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D911E1C1D3B0F4200F8DACB /* VINAMatchesViewController.m in Sources */,
+				5D911E161D3B0F4200F8DACB /* AppDelegate.m in Sources */,
+				5DAAD6831D3DF3BD004F84C8 /* VINAUser.m in Sources */,
+				5D911E191D3B0F4200F8DACB /* VINAFilteringViewController.m in Sources */,
+				5D9FCF981D3DFD7500EA9113 /* VINARangeSelectionView.m in Sources */,
+				5D9FCF9B1D3DFEB200EA9113 /* UIColor+VINASettings.m in Sources */,
+				5D911E131D3B0F4200F8DACB /* main.m in Sources */,
+				5D8B4E2A1D3E13B100EEB0DB /* VINAUserManager.m in Sources */,
+				5D8B4E271D3E0EA900EEB0DB /* UIFont+VINASettings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D911E261D3B0F4200F8DACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D911E2F1D3B0F4200F8DACB /* VinaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D911E311D3B0F4200F8DACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D911E3A1D3B0F4200F8DACB /* VinaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D911E2C1D3B0F4200F8DACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D911E0D1D3B0F4200F8DACB /* Vina */;
+			targetProxy = 5D911E2B1D3B0F4200F8DACB /* PBXContainerItemProxy */;
+		};
+		5D911E371D3B0F4200F8DACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D911E0D1D3B0F4200F8DACB /* Vina */;
+			targetProxy = 5D911E361D3B0F4200F8DACB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D911E1D1D3B0F4200F8DACB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D911E1E1D3B0F4200F8DACB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D911E221D3B0F4200F8DACB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D911E231D3B0F4200F8DACB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D911E3C1D3B0F4200F8DACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D911E3D1D3B0F4200F8DACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D911E3F1D3B0F4200F8DACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.Vina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D911E401D3B0F4200F8DACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.Vina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D911E421D3B0F4200F8DACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VinaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.VinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vina.app/Vina";
+			};
+			name = Debug;
+		};
+		5D911E431D3B0F4200F8DACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VinaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.VinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vina.app/Vina";
+			};
+			name = Release;
+		};
+		5D911E451D3B0F4200F8DACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VinaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.VinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vina;
+			};
+			name = Debug;
+		};
+		5D911E461D3B0F4200F8DACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VinaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.VinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vina;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D911E091D3B0F4200F8DACB /* Build configuration list for PBXProject "Vina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D911E3C1D3B0F4200F8DACB /* Debug */,
+				5D911E3D1D3B0F4200F8DACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D911E3E1D3B0F4200F8DACB /* Build configuration list for PBXNativeTarget "Vina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D911E3F1D3B0F4200F8DACB /* Debug */,
+				5D911E401D3B0F4200F8DACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D911E411D3B0F4200F8DACB /* Build configuration list for PBXNativeTarget "VinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D911E421D3B0F4200F8DACB /* Debug */,
+				5D911E431D3B0F4200F8DACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D911E441D3B0F4200F8DACB /* Build configuration list for PBXNativeTarget "VinaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D911E451D3B0F4200F8DACB /* Debug */,
+				5D911E461D3B0F4200F8DACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D911E061D3B0F4200F8DACB /* Project object */;
+}
