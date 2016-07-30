@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -68,6 +68,15 @@
                                     <constraint firstAttribute="width" constant="15" id="WJj-gb-t9v"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHOW DISTANCE IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOf-b1-rjV">
+                                <rect key="frame" x="222" y="384" width="156.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="it2-kp-lbH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o2D-F3-TBW" customClass="VINARangeSelectionView">
                                 <rect key="frame" x="175" y="104" width="250" height="250"/>
                                 <subviews>
@@ -86,10 +95,11 @@
                                     <constraint firstAttribute="height" constant="250" id="r0n-gA-ZXA"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHOW DISTANCE IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOf-b1-rjV">
-                                <rect key="frame" x="222" y="384" width="156.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fl-ww-Gq3">
+                                <rect key="frame" x="290" y="79" width="20" height="20"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="it2-kp-lbH"/>
+                                    <constraint firstAttribute="width" constant="20" id="W9V-ve-5q3"/>
+                                    <constraint firstAttribute="height" constant="20" id="ZjJ-Ub-CGb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -98,6 +108,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="o2D-F3-TBW" firstAttribute="top" secondItem="5fl-ww-Gq3" secondAttribute="bottom" constant="5" id="2eK-SF-c84"/>
+                            <constraint firstItem="5fl-ww-Gq3" firstAttribute="centerX" secondItem="o2D-F3-TBW" secondAttribute="centerX" id="4Jx-I6-cdb"/>
                             <constraint firstItem="NrS-No-ecL" firstAttribute="leading" secondItem="dMf-K7-FId" secondAttribute="trailing" constant="5" id="5Be-Fe-YFC"/>
                             <constraint firstAttribute="trailing" secondItem="j7D-UA-CLf" secondAttribute="trailing" constant="5" id="5em-Ie-JG2"/>
                             <constraint firstItem="RDY-Yc-sA0" firstAttribute="top" secondItem="eOf-b1-rjV" secondAttribute="bottom" constant="15" id="5iF-7U-3ip"/>
