@@ -17,6 +17,7 @@
 @property (nonatomic) CGPoint lastPoint;
 @property (nonatomic) CGPoint currentPoint;
 @property (nonatomic) CGFloat endAngle;
+@property (nonatomic) CGFloat startAngle;
 @property (nonatomic) BOOL didTouch;
 @property (nonnull, strong) CAShapeLayer *distanceIndicator;
 @property (nonnull, strong) UIView *distanceIndicatorView;
@@ -81,7 +82,7 @@
 -(void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     _currentPoint = [(UITouch *)[touches anyObject] locationInView:self];
-   // CGFloat stratAngle = atan2(_lastPoint.y - CGRectGetMidY(self.bounds), _lastPoint.x - CGRectGetMidX(self.bounds));
+   _startAngle = atan2(_lastPoint.y - CGRectGetMidY(self.bounds), _lastPoint.x - CGRectGetMidX(self.bounds));
     CGFloat endAngle = atan2(_currentPoint.y - CGRectGetMidY(self.bounds), _currentPoint.x - CGRectGetMidX(self.bounds));
     [self addAnimationLayerWithStartAngle:3 * M_PI_2 endAngle:endAngle];
     _endAngle = endAngle;
@@ -109,7 +110,7 @@
     
     layer.fillColor = [UIColor clearColor].CGColor;
     UIBezierPath *path;
-    if(startAngle > endAngle) {
+    if(_startAngle > _endAngle) {
         layer.strokeColor = self.backgroundColor.CGColor;
         path = [UIBezierPath bezierPathWithArcCenter:CGPointMake(self.layer.cornerRadius, self.layer.cornerRadius) radius:self.layer.cornerRadius - 10 startAngle:startAngle endAngle:endAngle clockwise:NO];
          layer.lineCap = kCALineCapButt;
